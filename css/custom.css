@@ -1,0 +1,32 @@
+h1 {
+    margin: 0 auto;
+    font-size: 64pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+#detail {
+    margin: 0 auto;
+}
+
+/* RESPONSIVE VIDEO EMBEDDING */
+
+div.main {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+}
+
+div.detail {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+div.TRUCKMONTH iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
