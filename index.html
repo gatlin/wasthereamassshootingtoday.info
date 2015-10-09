@@ -10,19 +10,9 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
-        </script>
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/custom.css">
-
-        <link rel="import"
-              href="bower_components/paper-styles/paper-styles.html">
-        <link rel="import"
-              href="bower_components/paper-card/paper-card.html">
-        <link rel="import"
-              href="bower_components/paper-item/paper-item.html">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -41,18 +31,6 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script>
-          // To ensure that elements are ready on polyfilled browsers, 
-          // wait for WebComponentsReady. 
-          document.addEventListener('WebComponentsReady', function() {
-            var input = document.querySelector('paper-input');
-            var button = document.querySelector('paper-button');
-            var greeting = document.getElementById("greeting");
-            button.addEventListener('click', function() {
-              greeting.textContent = 'Hello, ' + input.value;
-            });
-          });
-        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
